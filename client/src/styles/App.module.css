@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    height: 100vh;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background: url('../icon/les-zima-planeta-kosmos-qauz.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.headers {
+    /* background: white; */
+
+}
+
+
+
+.AddForm {
+    position: relative;
+    top: 10vh;
+
+    /* background: rebeccapurple; */
+    /* width: 50%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: white;
+    width: 24%;
+    margin-left: 2vw;
+
+}
+
+.title {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+
+}
+
+input {
+
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.sumbit {
+    width: 300px;
+    height: 40px;
+
+    margin: 0 auto;
+    margin-bottom: 1.5vh;
+
+    font-size: 15px;
+    background: #2e10eb;
+    border: 0ch;
+
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.sumbit_clear {
+    width: 300px;
+    height: 40px;
+
+    margin: 0 auto;
+    margin-bottom: 1.5vh;
+    background: #eb1043;
+    border: 0;
+
+    font-size: 15px;
+
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+
+
+.card {
+    background: white;
+    border: 1px solid black;
+    width: 20%;
+    position: relative;
+    top: -40vh;
+    margin: 0 auto;
+    margin-bottom: 2vh;
+    border-radius: 10%;
+
+    /* display: flex; */
+
+
+}
+
+.movieName {
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+
+}
+
+.buttonSumbit {
+    border: 0;
+    background: 0;
+    padding-left: 1vw;
+
+
+}
+
+.operations {
+    margin-left: 13.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+}
