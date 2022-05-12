@@ -17,9 +17,10 @@ export const getDate = () => {
 
 export const deleteDate = (moviewName) => {
 
-    return dispatch => {
+    return async dispatch => {
         try {
-            axios.delete(`http://localhost:3001/api/delete/${moviewName}`)
+            await axios.delete(`http://localhost:3001/api/delete/${moviewName}`)
+
             dispatch(getDate())
         }
         catch (e) {
@@ -38,7 +39,7 @@ export const appDate = (moviewName, review) => {
             await axios.post('http://localhost:3001/api/insert', {
                 movieName: moviewName,
                 movieReview: review,
-                date: new Date()
+                // date: new Date()
             })
             dispatch(getDate())
 
@@ -52,11 +53,11 @@ export const appDate = (moviewName, review) => {
 
 
 
-export const updateDate = (movie, newReview) => {
+export const updateDate = (name, newReview) => {
     return async dispatch => {
         try {
             await axios.put('http://localhost:3001/api/update', {
-                movieName: movie,
+                movieName: name,
                 movieReview: newReview,
             })
 

@@ -7,37 +7,19 @@
     text-align: center;
     height: 100vh;
 
+    color: #bac3c4;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background: url('../icon/les-zima-planeta-kosmos-qauz.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
 }
-
-.headers {
-    /* background: white; */
-
-}
-
 
 
 .AddForm {
     position: relative;
     top: 10vh;
 
-    /* background: rebeccapurple; */
-    /* width: 50%; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    background: white;
+    /* background: #1D3135; */
+
     width: 24%;
     margin-left: 2vw;
 
@@ -56,7 +38,15 @@ input {
     width: 300px;
     height: 50px;
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+input {
+
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 15px;
 }
 
 .sumbit {
@@ -90,18 +80,43 @@ input {
 
 }
 
+.headers__title {
+    /* color: white; */
+}
+
+.d {
+    width: 900px;
+    /* height: 500px; */
+    /* border: 1px solid #c3c3c3; */
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 25vw; */
+    /* margin: 0 auto; */
+    margin-left: 34vw;
+    /* background: #2e10eb; */
+    position: relative;
+    top: -50vh;
+}
 
 .card {
-    background: white;
+    background: #1D3135;
     border: 1px solid black;
-    width: 20%;
-    position: relative;
-    top: -40vh;
-    margin: 0 auto;
-    margin-bottom: 2vh;
-    border-radius: 10%;
+    /* width: 25%; */
+    /* position: relative; */
+    width: 350px;
+    /* height: 350px; */
+    margin: 3vw;
+    /* flex-wrap: wrap; */
+    /* top: -40vh; */
+    /* left: 25vw; */
+    /* margin: 0 auto; */
+    /* margin-bottom: 2vh; */
 
-    /* display: flex; */
+    /* border-radius: 4%; */
+
+
+
+    box-shadow: 3px 3px #1D3135, -1em 0 .4em olive;
 
 
 }
@@ -118,6 +133,7 @@ input {
     border: 0;
     background: 0;
     padding-left: 1vw;
+    color: #ADFF2F;
 
 
 }
@@ -126,4 +142,10 @@ input {
     margin-left: 13.5vw;
     margin-top: 1vw;
     margin-bottom: 0.5vw;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
 }

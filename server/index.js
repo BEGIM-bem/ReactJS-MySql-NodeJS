@@ -35,7 +35,7 @@ app.post('/api/insert', (req, res) => {
     const movieReview = req.body.movieReview
     const date = req.body.date
 
-    const sqlInsert = "INSERT INTO new_table (movieName,  movieReview, date) VALUES (?,?,?)";
+    const sqlInsert = "INSERT INTO new_table (movieName,  movieReview) VALUES (?,?)";
     db.query(sqlInsert, [movieName, movieReview, date], (err, result) => {
         console.log("Reault: ", result)
         res.send(result)

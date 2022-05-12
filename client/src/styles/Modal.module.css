@@ -47,18 +47,54 @@
 }
 
 .modal__content1 {
-    background: #ffffff;
+    background: #1d3135;
     border: 1px solid #eeeeee;
     box-sizing: border-box;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.1);
     border-radius: 13px;
     /* margin-top: 90vh; */
-    margin-top: 105vh;
+    /* margin-top: 105vh; */
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 40px;
+    padding: 15px;
 
     /* padding-bottom: 2.5rem; */
 
     width: 31rem;
+}
+
+textarea {
+    border: 0;
+    font-size: 15px;
+    background: #1d3135;
+    color: wheat;
+    letter-spacing: 1.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.buttonClose {
+    width: 9vw;
+    height: 5vh;
+    margin-right: 2vw;
+    background: #008000;
+    border: 0;
+    color: white;
+    font-size: 15px;
+
+}
+
+.buttonSave {
+    width: 9vw;
+    height: 5vh;
+    background: blue;
+    border: 0;
+    color: white;
+    font-size: 15px;
+
+}
+
+.updateInput {
+    margin-top: 2vh;
 }
